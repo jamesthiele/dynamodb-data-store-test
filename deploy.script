@@ -1,0 +1,48 @@
+Script started on Mon 05 Feb 2018 07:03:32 PM UTC
+]0;ec2-user@ip-172-31-16-31:~/dev/aws/lambda/serverless/examples/aws-python-rest-api-with-dynamodb[?1034h[ec2-user@ip-172-31-16-31 aws-python-rest-api-with-dynamodb]$ serverless deploy
+Serverless: [33mPackaging service...[39m
+Serverless: [33mExcluding development dependencies...[39m
+Serverless: [33mUploading CloudFormation file to S3...[39m
+Serverless: [33mUploading artifacts...[39m
+Serverless: [33mUploading service .zip file to S3 (5.3 KB)...[39m
+Serverless: [33mValidating template...[39m
+Serverless: [33mUpdating Stack...[39m
+Serverless: [33mChecking Stack update progress...[39m
+[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m
+Serverless: [33mStack update finished...[39m
+[33m[4mService Information[24m[39m
+[33mservice:[39m serverless-rest-api-with-dynamodb
+[33mstage:[39m dev
+[33mregion:[39m us-east-1
+[33mstack:[39m serverless-rest-api-with-dynamodb-dev
+[33mapi keys:[39m
+  None
+[33mendpoints:[39m
+  POST - https://oh5g12u6q3.execute-api.us-east-1.amazonaws.com/dev/todos
+  GET - https://oh5g12u6q3.execute-api.us-east-1.amazonaws.com/dev/todos
+  GET - https://oh5g12u6q3.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  PUT - https://oh5g12u6q3.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  DELETE - https://oh5g12u6q3.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+[33mfunctions:[39m
+  create: serverless-rest-api-with-dynamodb-dev-create
+  list: serverless-rest-api-with-dynamodb-dev-list
+  get: serverless-rest-api-with-dynamodb-dev-get
+  update: serverless-rest-api-with-dynamodb-dev-update
+  delete: serverless-rest-api-with-dynamodb-dev-delete
+]0;ec2-user@ip-172-31-16-31:~/dev/aws/lambda/serverless/examples/aws-python-rest-api-with-dynamodb[ec2-user@ip-172-31-16-31 aws-python-rest-api-with-dynamodb]$ date
+Mon Feb  5 19:10:16 UTC 2018
+]0;ec2-user@ip-172-31-16-31:~/dev/aws/lambda/serverless/examples/aws-python-rest-api-with-dynamodb[ec2-user@ip-172-31-16-31 aws-python-rest-api-with-dynamodb]$ serverless remove[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khistory | grep curl
+   31  [01;31m[Kcurl[m[K https://hbe2m2gqoc.execute-api.us-west-2.amazonaws.com/api/
+  174  [01;31m[Kcurl[m[K -O https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
+  261  [01;31m[Kcurl[m[K -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
+  407  history | grep [01;31m[Kcurl[m[K
+]0;ec2-user@ip-172-31-16-31:~/dev/aws/lambda/serverless/examples/aws-python-rest-api-with-dynamodb[ec2-user@ip-172-31-16-31 aws-python-rest-api-with-dynamodb]$ serverless remove
+Serverless: [33mGetting all objects in S3 bucket...[39m
+Serverless: [33mRemoving objects in S3 bucket...[39m
+Serverless: [33mRemoving Stack...[39m
+Serverless: [33mChecking Stack removal progress...[39m
+[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m[33m.[39m
+Serverless: [33mStack removal finished...[39m
+]0;ec2-user@ip-172-31-16-31:~/dev/aws/lambda/serverless/examples/aws-python-rest-api-with-dynamodb[ec2-user@ip-172-31-16-31 aws-python-rest-api-with-dynamodb]$ exit
+
+Script done on Mon 05 Feb 2018 08:11:54 PM UTC
